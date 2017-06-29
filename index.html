@@ -1,1 +1,123 @@
-<h1> Test file </h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Github Pages Template</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+    <!-- Combo with CSSNormalize, CSSGrids-Responsive, CSSForm, CSSTable, CSSList (v3.9.1) -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/combo?3.9.1/build/cssnormalize/cssnormalize-min.css&amp;3.9.1/build/cssgrids-responsive/cssgrids-responsive-min.css&amp;3.9.1/build/cssbutton/cssbutton-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-csslist/gallerycss-csslist-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-csstable/gallerycss-csstable-min.css&amp;gallery-2013.03.27-22-06/build/gallerycss-cssform/gallerycss-cssform-min.css">
+    
+    <!-- Some custom styles to make things pretty. -->
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/tilomitra/prettypages/gh-pages/ui.css">
+
+    <!-- RainbowJS Syntax Highlighting - Github Theme. 
+         For more themes, go to https://github.com/ccampbell/rainbow/tree/master/themes -->
+    <link rel="stylesheet" type="text/css" href="https://rawgithub.com/ccampbell/rainbow/master/themes/github.css">
+<link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.css"
+    rel="stylesheet" type="text/css">
+<script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.js"></script>
+
+    <!-- Modify header colors here to customize the look and feel of the site-->
+    <style>
+        
+        .header {
+            background: rgb(53, 41, 116);
+         }
+            .header h1 {
+                color: white;
+            }
+             .header h2 {
+                 font-weight:300;
+                 margin:0;
+                 color: rgb(116, 130, 230);
+             }
+    </style>
+
+</head>
+
+<body class='yui3-skin-sam'>
+
+    <div id="headerMenu" class="yui3-menu yui3-menu-open yui3-menu-horizontal yui3-menu-fixed">
+        <span class="yui3-menu-heading">PrettyPages</span>
+        <ul>
+            <li class="yui3-menu-active"><a href="http://tilomitra.github.com/cssforms/">Documentation</a></li>
+            <li><a href="http://github.com/tilomitra/prettypages/">Fork on Github</a></li>
+            <li><a href="http://github.com/tilomitra/">Other Projects</a></li>
+        </ul>
+    </div>
+    <div class="header yui3-u-1">
+
+        <h1 class="yui3-u-1">Pretty Pages</h1>
+        <h2 class="yui3-u">A pretty Github Pages template</h2>
+
+    </div>
+    <div class="content">
+        <h2>Get Started</h2>
+        <p><a href="http://github.com/tilomitra/prettypages/">PrettyPages</a> is just an HTML template that makes it easy for you to create nice looking Github Pages for your projects. This page was created using PrettyPages. </p>
+
+        <a href="http://github.com/tilomitra/prettypages/" class="yui3-button primary-button">View on Github</a>
+
+        <h2>About</h2>
+        
+        <p>PrettyPages comes with a flat horizontal menu, where you can place links, and add the title of your project. This menu is responsive at lower screen sizes.</p>
+
+        <p>You also add pretty code snippets that have syntax highlighting thanks to <a href="http://craig.is/making/rainbows">RainbowJS</a>! These come in a variety of different <a href="https://github.com/ccampbell/rainbow/tree/master/themes">themes</a>.</p>
+
+<pre><code data-language="javascript">
+    YUI().use('node', function(Y) {
+      Y.log('YUI Loaded. Vroom vroom!');
+    });
+
+</code></pre>
+
+        <p>You can also display nice looking buttons thanks to YUI's CSSButton module. Add the <code>.yui3-button</code> class to a <code>a</code> element to make a nice looking button, and add the <code>primary-button</code> class to make a really big callout button.</p>
+
+        <a class="yui3-button">Regular button</a>
+        <a class="yui3-button primary-button">Primary button</a>
+
+
+        <h2>More Content</h2>
+        <p>
+            In general, all your content should be placed inside a <code>div class="content"</code>. You can use <code>code</code> elements to highlight inline-code. If you want sub-headings, those are nicely styled too. 
+        </p>
+
+        <h3>A sub-heading</h3>
+
+        <p>
+            Use <code>h3</code> for subheadings! If you want something smaller, you can go for an <code>h4</code>.
+        </p>
+
+        <h4>A sub-sub heading</h4>
+        <p>That's what an <code>h4</code> looks like.</p>
+<div class="bk-root">
+    <div class="bk-plotdiv" id="38d9186c-2445-4012-b72e-43e2c8022fe8"></div>
+</div> 
+
+
+
+        <!-- TYPEKIT -->
+        <script type="text/javascript" src="//use.typekit.net/ajf8ggy.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script src="https://rawgithub.com/ccampbell/rainbow/master/js/rainbow.min.js"></script>
+        <script src="https://rawgithub.com/ccampbell/rainbow/master/js/language/generic.js"></script>
+		<script type="text/javascript">
+    (function() {
+  var fn = function() {
+    Bokeh.safely(function() {
+      var docs_json = {"5f7a77b1-d4d5-428f-8b47-73eccfdee518":{"roots":{"references":[{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[1,2],"y":[3,4]}},"id":"e6574a82-dec7-4aee-9e64-b7ae9bf2c8a7","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"e6574a82-dec7-4aee-9e64-b7ae9bf2c8a7","type":"ColumnDataSource"},"glyph":{"id":"593b46f8-e501-457a-8e77-343dd6dc45c4","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"74f4a1a2-b87b-4d3a-8a1d-bd1f088c6356","type":"Circle"},"selection_glyph":null},"id":"8d57c1d5-31c9-469c-8132-430ed676827f","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"fe20d9d5-e3aa-424b-9946-85b0d69e7f3c","type":"BoxAnnotation"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"80b8b0c3-b2af-449e-8690-07b0d68efcf5","type":"PanTool"},{"id":"3deda329-ecb8-4e76-b59d-2ca735425e92","type":"WheelZoomTool"},{"id":"55eb3375-16f7-4253-a7ae-62c0c24a76e5","type":"BoxZoomTool"},{"id":"841d554a-bf28-4d8a-a504-df9aa26aed12","type":"SaveTool"},{"id":"4040acfe-0772-4e9e-afdc-9e7cc613fb71","type":"ResetTool"},{"id":"4dd986cf-223f-4d68-af2e-33b372462b35","type":"HelpTool"}]},"id":"9cc57bc6-0f2e-4a01-88eb-c11966a1a2bf","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"74f4a1a2-b87b-4d3a-8a1d-bd1f088c6356","type":"Circle"},{"attributes":{"overlay":{"id":"fe20d9d5-e3aa-424b-9946-85b0d69e7f3c","type":"BoxAnnotation"},"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"55eb3375-16f7-4253-a7ae-62c0c24a76e5","type":"BoxZoomTool"},{"attributes":{},"id":"25b25b40-2be2-4754-a968-192476baa382","type":"ToolEvents"},{"attributes":{"dimension":1,"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"},"ticker":{"id":"291368c5-67f3-4420-9850-8b1346eb868c","type":"BasicTicker"}},"id":"a1fdd834-9d04-4a45-a0aa-66292c150a9d","type":"Grid"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"3deda329-ecb8-4e76-b59d-2ca735425e92","type":"WheelZoomTool"},{"attributes":{},"id":"291368c5-67f3-4420-9850-8b1346eb868c","type":"BasicTicker"},{"attributes":{"below":[{"id":"d0186908-b0ca-47f6-a3f0-ee1c6748be4b","type":"LinearAxis"}],"left":[{"id":"1ae9c7da-e914-40b4-ab3c-03b3b86005a5","type":"LinearAxis"}],"renderers":[{"id":"d0186908-b0ca-47f6-a3f0-ee1c6748be4b","type":"LinearAxis"},{"id":"b4781edc-ef2c-4175-a443-94f2f9cae624","type":"Grid"},{"id":"1ae9c7da-e914-40b4-ab3c-03b3b86005a5","type":"LinearAxis"},{"id":"a1fdd834-9d04-4a45-a0aa-66292c150a9d","type":"Grid"},{"id":"fe20d9d5-e3aa-424b-9946-85b0d69e7f3c","type":"BoxAnnotation"},{"id":"8d57c1d5-31c9-469c-8132-430ed676827f","type":"GlyphRenderer"}],"title":{"id":"27dfee9f-559e-4c43-8dbb-cfcbc72d4d59","type":"Title"},"tool_events":{"id":"25b25b40-2be2-4754-a968-192476baa382","type":"ToolEvents"},"toolbar":{"id":"9cc57bc6-0f2e-4a01-88eb-c11966a1a2bf","type":"Toolbar"},"x_range":{"id":"0b73d232-0611-47c9-8169-a2784c0c588a","type":"DataRange1d"},"x_scale":{"id":"5f4dc5a5-3c88-4d09-acc9-67ff707e786b","type":"LinearScale"},"y_range":{"id":"2b5fca1e-6001-4f34-8908-dfc6e6ca1661","type":"DataRange1d"},"y_scale":{"id":"6545b775-e8a8-4a61-a58b-2c03a5dfa51d","type":"LinearScale"}},"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"4040acfe-0772-4e9e-afdc-9e7cc613fb71","type":"ResetTool"},{"attributes":{"plot":null,"text":""},"id":"27dfee9f-559e-4c43-8dbb-cfcbc72d4d59","type":"Title"},{"attributes":{"formatter":{"id":"36684327-ef01-4cbf-9ce8-14814db246f7","type":"BasicTickFormatter"},"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"},"ticker":{"id":"084ac5bc-60cb-441d-8d3d-3328e193c677","type":"BasicTicker"}},"id":"d0186908-b0ca-47f6-a3f0-ee1c6748be4b","type":"LinearAxis"},{"attributes":{"formatter":{"id":"79a0a2bc-dc4f-4969-b99e-1e8ad3d2873f","type":"BasicTickFormatter"},"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"},"ticker":{"id":"291368c5-67f3-4420-9850-8b1346eb868c","type":"BasicTicker"}},"id":"1ae9c7da-e914-40b4-ab3c-03b3b86005a5","type":"LinearAxis"},{"attributes":{},"id":"79a0a2bc-dc4f-4969-b99e-1e8ad3d2873f","type":"BasicTickFormatter"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"80b8b0c3-b2af-449e-8690-07b0d68efcf5","type":"PanTool"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"841d554a-bf28-4d8a-a504-df9aa26aed12","type":"SaveTool"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"},"ticker":{"id":"084ac5bc-60cb-441d-8d3d-3328e193c677","type":"BasicTicker"}},"id":"b4781edc-ef2c-4175-a443-94f2f9cae624","type":"Grid"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"593b46f8-e501-457a-8e77-343dd6dc45c4","type":"Circle"},{"attributes":{},"id":"5f4dc5a5-3c88-4d09-acc9-67ff707e786b","type":"LinearScale"},{"attributes":{},"id":"36684327-ef01-4cbf-9ce8-14814db246f7","type":"BasicTickFormatter"},{"attributes":{"callback":null},"id":"2b5fca1e-6001-4f34-8908-dfc6e6ca1661","type":"DataRange1d"},{"attributes":{"plot":{"id":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74","subtype":"Figure","type":"Plot"}},"id":"4dd986cf-223f-4d68-af2e-33b372462b35","type":"HelpTool"},{"attributes":{},"id":"6545b775-e8a8-4a61-a58b-2c03a5dfa51d","type":"LinearScale"},{"attributes":{"callback":null},"id":"0b73d232-0611-47c9-8169-a2784c0c588a","type":"DataRange1d"},{"attributes":{},"id":"084ac5bc-60cb-441d-8d3d-3328e193c677","type":"BasicTicker"}],"root_ids":["e0918b18-1612-4ac1-a1e6-6e9fdab6ce74"]},"title":"Bokeh Application","version":"0.12.6"}};
+      var render_items = [{"docid":"5f7a77b1-d4d5-428f-8b47-73eccfdee518","elementid":"38d9186c-2445-4012-b72e-43e2c8022fe8","modelid":"e0918b18-1612-4ac1-a1e6-6e9fdab6ce74"}];
+      
+      Bokeh.embed.embed_items(docs_json, render_items);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+
+</script>
+
+    </div>
+</body>
+</html>
